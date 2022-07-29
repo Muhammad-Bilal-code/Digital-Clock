@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+    <style>
+        .date, .time {
+    text-align: center;
+}
+        span {
+    font-size: 150px;
+}
+.date-time {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    </style>
+</head>
+<body>
+    <div class="date-time">
+        <div class="date">
+            <!-- <h2>Date</h2> -->
+            <!-- <span id="cmp-date"></span> -->
+            <span id="month">txt</span><span id="tareekh">txt</span><span id="year">txt</span>
+        </div>
+        <div class="time">
+            <!-- <h2>Time</h2> -->
+            <span id="hours"></span><span id="minutes"></span><span id="sec"></span><span id="ampm"></span>
+        </div>
+    </div>
+    
+    
+    
+    
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
